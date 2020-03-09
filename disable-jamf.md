@@ -1,11 +1,12 @@
-Source: https://gist.githubusercontent.com/master-atul/59559fe18db69623aae7692c5481cfce/raw/f41b523e4e78c6f86fdf3cf5b809b6b510b504e6/jamf.md
 # REMOVE JAMF RESTRICTIONS ON MAC
-### REMOVE ONLY RESTRICTIONS
+
+## REMOVE ONLY RESTRICTIONS
+
 `sudo jamf removeMDMProfile` removes all restrictions
 
 `sudo jamf manage` brings back all restrictions and profiles
 
-### REMOVE ALL RESTRICTIONS AND DISABLE JAMF BINARIES WHILE KEEPING YOUR ACCESS TO VPN AND OTHER SERVICES
+## REMOVE ALL RESTRICTIONS AND DISABLE JAMF BINARIES WHILE KEEPING YOUR ACCESS TO VPN AND OTHER SERVICES
 
 `sudo jamf removeMDMProfile` removes all restrictions
 

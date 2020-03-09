@@ -1,0 +1,15 @@
+name: CI
+on: push
+jobs:
+  tests:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Markdown lint
+        uses: actionshub/markdownlint@v1.1.1
+
+      - name: Perl Syntaxcheck
+        run: perl -Mstrict -cw *.pl
