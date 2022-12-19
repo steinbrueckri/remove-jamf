@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Markdown lint
-        uses: actionshub/markdownlint@2.0.2
+        uses: actionshub/markdownlint@v2.1.2
 
       - name: Perl Syntaxcheck
         run: perl -Mstrict -cw *.pl
